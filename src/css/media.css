@@ -1,0 +1,154 @@
+@media screen and (max-width: 767px) {
+    .logo {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image {
+        width: 350px;
+        height: 250px;
+    }
+
+    .image-holder {
+        flex-direction: column;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .image:last-child {
+        margin-bottom: 0;
+    }
+
+    .image {
+        margin-bottom: 10px;
+
+    }
+
+    .contact-content > form > button {
+        width: 150px;
+    }
+
+    .button-social-wrapper {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .made-with {
+        padding: 25px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        font-size: 19px;
+    }
+
+    .header {
+        padding-top: 30px;
+        box-sizing: border-box;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .menu-button {
+        width: 200px;
+    }
+
+    .image-holder {
+        flex-direction: column;
+    }
+
+    .image {
+        margin-bottom: 30px;
+    }
+
+    .form-item > input {
+        width: 450px;
+        height: 45px;
+    }
+
+    .form-item > textarea {
+        width: 400px;
+    }
+
+    .form-item:last-child {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    form > button {
+        width: 350px;
+    }
+
+    .footer {
+        padding: 30px 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        font-size: 19px !important;
+    }
+
+    .header {
+        position: relative;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+    }
+
+    .image {
+        padding-bottom: 40px;
+    }
+
+    .menu-button {
+        width: 300px;
+    }
+
+    .image-holder {
+        flex-direction: column;
+    }
+
+    input {
+        width: 450px;
+        height: 45px;
+    }
+
+    textarea {
+        width: 350px;
+    }
+
+    form > button {
+        width: 200px;
+        margin-top: 0;
+    }
+
+    .connection-info {
+        padding: 0 200px;
+    }
+
+    .footer {
+        padding: 50px 50px;
+    }
+}
